@@ -19,7 +19,7 @@ namespace ModuleTemplate
             Module.CurrentModule.AddInitialStateOption(new InitialStateOption("Message",
                 new TextObject("模板消息", null), 9990,
                 () => { 
-                    InformationManager.DisplayMessage(new InformationMessage("Hello World!")); 
+                    InformationManager.DisplayMessage(new InformationMessage("Hello World!"));
                 },
                 false));
         }
