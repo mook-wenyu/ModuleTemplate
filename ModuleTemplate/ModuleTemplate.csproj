@@ -222,4 +222,7 @@
     <Content Include="SubModule.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>Copy "$(ProjectDir)SubModule.xml" "E:\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\ModuleTemplate\"</PostBuildEvent>
+  </PropertyGroup>
 </Project>
